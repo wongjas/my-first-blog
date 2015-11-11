@@ -1,0 +1,16 @@
+body {
+	padding-left: 15px;
+}
+
+.page-header {
+	background-color: #0076AA;
+	margin-top: 0;
+	padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .pager-header h1 a:active {
+	color: #AB3300;
+	font-size: 36pt;
+	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+}
