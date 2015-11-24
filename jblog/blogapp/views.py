@@ -10,3 +10,9 @@ def post_list(request):
 def post_detail(request, pk):
 	post = get_object_or_404(Post, pk=pk)
 	return render(request, 'blogapp/post_detail.html', {'post': post})
+
+def main_page(request):
+	return render(request, 'blogapp/main_page.html', {})
+
+def about(request):
+	return render(request, 'blogapp/about.html', {})
